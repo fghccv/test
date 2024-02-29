@@ -1,9 +1,119 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T10:00:17.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="23.1.8" etag="ddf_d4RGqjJKG5RJ9j73" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-29T13:34:35.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="6hCbdzQ0JMbzdSf2e3c7" version="23.1.8" type="github">
   <diagram name="第 1 页" id="6uOsCKxRACz1YkrYR2Ga">
-    <mxGraphModel>
+    <mxGraphModel dx="1173" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-29" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="210" y="390" width="260" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-1" value="&lt;p class=&quot;MsoNormal&quot;&gt;1.输入为切分好的源语言句子集和目标语言句子集&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="NIOBQaifxFQ24tQkUtUt-29">
+          <mxGeometry x="66" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-2" value="2.初始化句子对齐C" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="NIOBQaifxFQ24tQkUtUt-29">
+          <mxGeometry x="66" y="90" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=11;endSize=7.67;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="NIOBQaifxFQ24tQkUtUt-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="60" as="sourcePoint" />
+            <mxPoint x="140" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-17" value="&lt;p class=&quot;MsoNormal&quot;&gt;3.分别向源语言和目标语言添加一个分句，得到两个候选对齐C1、C2&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="NIOBQaifxFQ24tQkUtUt-29">
+          <mxGeometry x="66" y="180" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=11;endSize=7.67;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="NIOBQaifxFQ24tQkUtUt-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="150" as="sourcePoint" />
+            <mxPoint x="140" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-19" value="4.使用LaBSE模型，计算C、C1、C2的句子相似度" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="NIOBQaifxFQ24tQkUtUt-29">
+          <mxGeometry x="67" y="270" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-20" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=11;endSize=7.67;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="NIOBQaifxFQ24tQkUtUt-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="141" y="240" as="sourcePoint" />
+            <mxPoint x="141" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-21" value="5.比较C、C1、C2的句子相似度，迭代更新C或是停止当前对齐" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="NIOBQaifxFQ24tQkUtUt-29">
+          <mxGeometry x="68" y="360" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-22" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=11;endSize=7.67;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="NIOBQaifxFQ24tQkUtUt-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="142" y="330" as="sourcePoint" />
+            <mxPoint x="142" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-23" value="6.重复2-5，直到源语言和目标语言中的句子匹配完" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="NIOBQaifxFQ24tQkUtUt-29">
+          <mxGeometry x="66" y="450" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=11;endSize=7.67;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="NIOBQaifxFQ24tQkUtUt-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="420" as="sourcePoint" />
+            <mxPoint x="140" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-25" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="NIOBQaifxFQ24tQkUtUt-29" source="NIOBQaifxFQ24tQkUtUt-23" target="NIOBQaifxFQ24tQkUtUt-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="350" as="sourcePoint" />
+            <mxPoint x="60" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="495" />
+              <mxPoint y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="NIOBQaifxFQ24tQkUtUt-29" source="NIOBQaifxFQ24tQkUtUt-21" target="NIOBQaifxFQ24tQkUtUt-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="240" as="sourcePoint" />
+            <mxPoint x="450" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="390" />
+              <mxPoint x="260" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-31" value="&lt;p class=&quot;MsoNormal&quot;&gt;1.输入待转换的源语言句子S&lt;img style=&quot;background-color: initial;&quot; src=&quot;file:///C:/Users/zsq/AppData/Local/Temp/ksohtml361828/wps10.jpg&quot; height=&quot;20&quot; width=&quot;6&quot;&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1210" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-32" value="2.使用机器翻译将源语言句子S翻译为目标语言句子T&lt;img style=&quot;background-color: initial;&quot; src=&quot;file:///C:/Users/zsq/AppData/Local/Temp/ksohtml361828/wps12.jpg&quot; height=&quot;20&quot; width=&quot;8&quot;&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1300" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=11;endSize=7.67;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="454" y="1270" as="sourcePoint" />
+            <mxPoint x="454" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-34" value="&lt;p class=&quot;MsoNormal&quot;&gt;3.使用正则表达式，分别将S、T切分为句子集合&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1390" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-35" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=11;endSize=7.67;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="454" y="1360" as="sourcePoint" />
+            <mxPoint x="454" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-36" value="4.利用分句对齐算法将源语言和目标语言对齐" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+          <mxGeometry x="381" y="1480" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-37" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=11;endSize=7.67;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="1450" as="sourcePoint" />
+            <mxPoint x="455" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-38" value="5.最后，使用束搜索算法，以代码大模型的困惑度最低为目标，将对齐的分句重新组合" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+          <mxGeometry x="382" y="1570" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIOBQaifxFQ24tQkUtUt-39" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=11;endSize=7.67;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="456" y="1540" as="sourcePoint" />
+            <mxPoint x="456" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
