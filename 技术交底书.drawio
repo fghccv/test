@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T15:42:31.193Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="aGSRR3BDCQSHv1mhiXbF" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-23T02:16:57.886Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="3TMjs8tTuScv77ZG9ZpZ" version="24.4.4" type="github">
   <diagram name="第 1 页" id="6uOsCKxRACz1YkrYR2Ga">
-    <mxGraphModel dx="2207" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2000" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,7 +97,7 @@
         <mxCell id="NIOBQaifxFQ24tQkUtUt-1" value="&lt;p class=&quot;MsoNormal&quot;&gt;1.输入为切分好的源语言句子集和目标语言句子集&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="276" y="390" width="156" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XBE-dxoC82VyoFdnZpHU-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NIOBQaifxFQ24tQkUtUt-2" target="NIOBQaifxFQ24tQkUtUt-17">
+        <mxCell id="XBE-dxoC82VyoFdnZpHU-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NIOBQaifxFQ24tQkUtUt-2" target="NIOBQaifxFQ24tQkUtUt-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NIOBQaifxFQ24tQkUtUt-2" value="2.初始化句子对齐C" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -115,25 +115,25 @@
         <mxCell id="NIOBQaifxFQ24tQkUtUt-23" value="6.重复2-5，直到源语言和目标语言中的句子匹配完" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="276" y="840" width="154" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XBE-dxoC82VyoFdnZpHU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="XBE-dxoC82VyoFdnZpHU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="352.86" y="630" as="sourcePoint" />
             <mxPoint x="352.86" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XBE-dxoC82VyoFdnZpHU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="XBE-dxoC82VyoFdnZpHU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="352.86" y="720" as="sourcePoint" />
             <mxPoint x="352.86" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XBE-dxoC82VyoFdnZpHU-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="XBE-dxoC82VyoFdnZpHU-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="352.86" y="810" as="sourcePoint" />
             <mxPoint x="352.86" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XBE-dxoC82VyoFdnZpHU-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NIOBQaifxFQ24tQkUtUt-23" target="NIOBQaifxFQ24tQkUtUt-2">
+        <mxCell id="XBE-dxoC82VyoFdnZpHU-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NIOBQaifxFQ24tQkUtUt-23" target="NIOBQaifxFQ24tQkUtUt-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="190" y="850" as="sourcePoint" />
             <mxPoint x="240" y="800" as="targetPoint" />
@@ -143,7 +143,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XBE-dxoC82VyoFdnZpHU-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NIOBQaifxFQ24tQkUtUt-21" target="NIOBQaifxFQ24tQkUtUt-17">
+        <mxCell id="XBE-dxoC82VyoFdnZpHU-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NIOBQaifxFQ24tQkUtUt-21" target="NIOBQaifxFQ24tQkUtUt-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="760" as="sourcePoint" />
             <mxPoint x="510" y="710" as="targetPoint" />
@@ -153,7 +153,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XBE-dxoC82VyoFdnZpHU-17" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="XBE-dxoC82VyoFdnZpHU-17" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="560" y="360" width="156" height="420" as="geometry" />
         </mxCell>
         <mxCell id="NIOBQaifxFQ24tQkUtUt-31" value="&lt;p class=&quot;MsoNormal&quot;&gt;1.输入待转换的源语言句子S&lt;img style=&quot;background-color: initial;&quot; src=&quot;file:///C:/Users/zsq/AppData/Local/Temp/ksohtml361828/wps10.jpg&quot; height=&quot;20&quot; width=&quot;6&quot;&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="XBE-dxoC82VyoFdnZpHU-17" vertex="1">
@@ -171,41 +171,38 @@
         <mxCell id="NIOBQaifxFQ24tQkUtUt-38" value="5.最后，使用束搜索算法，以代码大模型的困惑度最低为目标，将对齐的分句重新组合" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="XBE-dxoC82VyoFdnZpHU-17" vertex="1">
           <mxGeometry x="2" y="360" width="154" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XBE-dxoC82VyoFdnZpHU-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XBE-dxoC82VyoFdnZpHU-17" source="NIOBQaifxFQ24tQkUtUt-31" target="NIOBQaifxFQ24tQkUtUt-32">
+        <mxCell id="XBE-dxoC82VyoFdnZpHU-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="XBE-dxoC82VyoFdnZpHU-17" source="NIOBQaifxFQ24tQkUtUt-31" target="NIOBQaifxFQ24tQkUtUt-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-60" y="110" as="sourcePoint" />
             <mxPoint x="-10" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XBE-dxoC82VyoFdnZpHU-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XBE-dxoC82VyoFdnZpHU-17">
+        <mxCell id="XBE-dxoC82VyoFdnZpHU-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="XBE-dxoC82VyoFdnZpHU-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="76.79999999999995" y="150" as="sourcePoint" />
             <mxPoint x="76.79999999999995" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XBE-dxoC82VyoFdnZpHU-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XBE-dxoC82VyoFdnZpHU-17">
+        <mxCell id="XBE-dxoC82VyoFdnZpHU-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="XBE-dxoC82VyoFdnZpHU-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="76.79999999999995" y="240" as="sourcePoint" />
             <mxPoint x="76.79999999999995" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XBE-dxoC82VyoFdnZpHU-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XBE-dxoC82VyoFdnZpHU-17">
+        <mxCell id="XBE-dxoC82VyoFdnZpHU-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="XBE-dxoC82VyoFdnZpHU-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="76.79999999999995" y="330" as="sourcePoint" />
             <mxPoint x="76.79999999999995" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XBE-dxoC82VyoFdnZpHU-18" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NIOBQaifxFQ24tQkUtUt-1" target="NIOBQaifxFQ24tQkUtUt-36">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="390" as="sourcePoint" />
-            <mxPoint x="520" y="340" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="a8WKLrUD_Q7E6E375q2A-1" value="未匹配完" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="660" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XBE-dxoC82VyoFdnZpHU-19" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NIOBQaifxFQ24tQkUtUt-23" target="NIOBQaifxFQ24tQkUtUt-36">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="870" as="sourcePoint" />
-            <mxPoint x="560" y="820" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="a8WKLrUD_Q7E6E375q2A-2" value="对齐未结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="660" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a8WKLrUD_Q7E6E375q2A-3" value="当前分句对齐结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="346" y="810" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
